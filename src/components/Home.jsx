@@ -1,9 +1,8 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <>
+    <section className='home absolute top-0 h-screen px-5 pt-32 flex flex-col items-center text-center'>
         <section>
             <h3>SO, YOU WANT TO TRAVEL TO</h3>
             <h1>SPACE</h1>
@@ -12,7 +11,7 @@ const Home = () => {
         <div>
             <Link to={'/DESTINATION'} >EXPLORE</Link>
         </div>
-    </>
+    </section>
   )
 }
 
