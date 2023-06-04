@@ -1,0 +1,35 @@
+.home {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/home/background-home-mobile.jpg');
+}
+
+
+.exploreButtonContainer:hover {
+
+    width: 240px;
+    height: 240px;
+    background-color: hsl(var(--colorWhite)/15%);
+    transition-duration: 1s;
+
+}
+
+@media screen and (min-width: 640px) {
+    .home {
+        background-image: url('../assets/home/background-home-desktop.jpg');
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .exploreButtonContainer:hover {
+
+        width: 288px;
+        height: 288px;
+    
+    }
+
+
+}
