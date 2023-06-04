@@ -3,7 +3,7 @@ import '../styles/Home.css'
 
 const Home = () => {
   return (
-    <section className='home absolute top-0 h-screen px-5 pt-28 pb-16 flex flex-col items-center text-center gap-12 sm:flex-row sm:justify-between sm:gap-2 sm:px-14 md:px-28'>
+    <section className='home absolute top-0 h-screen px-5 pt-28 pb-16 flex flex-col items-center text-center gap-12 sm:flex-row sm:justify-between sm:gap-2 sm:px-14 md:px-32'>
         <section className='flex flex-col items-center gap-5 sm:w-1/2 sm:items-start sm:text-left' >
             <h3 className='font4 colorLight sm:text-2xl' >SO, YOU WANT TO TRAVEL TO</h3>
             <h1 className='text-8xl font1 md:text-9xl' >SPACE</h1>
