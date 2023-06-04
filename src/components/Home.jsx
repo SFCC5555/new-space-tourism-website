@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <section className='home absolute top-0 h-screen px-5 pt-32 flex flex-col items-center text-center'>
+    <section className='home absolute top-0 h-screen px-5 pt-32 flex flex-col items-center text-center gap-20'>
         <section>
             <h3>SO, YOU WANT TO TRAVEL TO</h3>
             <h1>SPACE</h1>
