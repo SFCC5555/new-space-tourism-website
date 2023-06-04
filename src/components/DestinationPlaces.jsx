@@ -5,12 +5,12 @@ import PropTypes from 'prop-types';
 const DestinationPlaces = ({d}) => {
   return (
     <>
-        <section className="flex flex-col items-center sm:items-start gap-12 flex-shrink-0" >
+        <section className="flex flex-col items-center sm:items-start gap-8 sm:gap-12 flex-shrink-0" >
             <h3 className="font4 md:text-2xl" ><span className="colorLight opacity-70" >01</span> PICK YOUR DESTINATION</h3>
             <img className="w-40 h-40 sm:w-60 sm:h-60  md:w-80 md:h-80" src={d.images.png} alt={d.name} />
         </section>
 
-        <section className="flex flex-col items-center sm:items-start gap-5 sm:w-1/2 sm:max-w-sm" >
+        <section className="flex flex-col items-center sm:items-start gap-4 sm:w-1/2 sm:max-w-sm" >
             <section className="flex items-center gap-5" >
               {data.destinations.map(i=><NavLink className={'navLink font2'} key={i.name} to={'/DESTINATION/'+i.name.toUpperCase()} >{i.name.toUpperCase()}</NavLink>)}
             </section>
@@ -21,7 +21,7 @@ const DestinationPlaces = ({d}) => {
                 <h3 className="text-sm sm:text-xs md:text-sm" >AVG. DISTANCE</h3>
                 <div className="text-2xl sm:text-base md:text-2xl font1" >{d.distance.toUpperCase()}</div>
               </div>
-              <div className="flex flex-col items-center sm:items-start gap-5" > 
+              <div className="flex flex-col items-center sm:items-start gap-4" > 
                 <h3 className="text-sm sm:text-xs md:text-sm" >EST. TRAVEL TIME</h3>
                 <div className="text-2xl sm:text-base md:text-2xl font1" >{d.travel.toUpperCase()}</div>
               </div>
