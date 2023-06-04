@@ -32,6 +32,11 @@
   font-family: var(--font3);
 }
 
+.font4 {
+  font-family: var(--font2);
+  letter-spacing: 4px;
+}
+
 .colorDark {
   color: hsl(var(--colorDark));
 }
@@ -52,4 +57,11 @@ span {
   background-size: 100%;
 }
 
+.borderTop1px {
+  border-top: 1px solid hsl(var(--colorWhite)/15%);
+}
+
+.borderBottom1px {
+  border-bottom: 1px solid hsl(var(--colorWhite)/15%);
+}
 

@@ -5,6 +5,9 @@ import { Home } from './components/Home';
 import { Destination } from './components/Destination';
 import { Crew } from './components/Crew';
 import { Technology } from './components/Technology ';
+import { DestinationPlaces } from './components/DestinationPlaces';
+import { CrewMembers } from './components/CrewMembers';
+import {data} from  './data';
 
 
 function App() {
@@ -15,11 +18,16 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home />}  />
-        <Route path='/DESTINATION' element={<Destination />}  />
-        <Route path='/CREW' element={<Crew />}  />
+        <Route path='/DESTINATION/*' element={<Destination />}>
+          <Route path='*' element={<Navigate to='MOON' />} />
+          {data.destinations.map(d=><Route key={d.name} path={`${d.name.toUpperCase()}`} element={<DestinationPlaces d={d} />} />)}
+        </Route>
+        <Route path='/CREW/*' element={<Crew />}>
+          <Route path='*' element={<Navigate to='Douglas-Hurley' />} />
+            {data.crew.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<CrewMembers d={d} />} />)}
+        </Route>
         <Route path='/TECHNOLOGY' element={<Technology />}  />
-        <Route path='*' element={<Navigate to='/'/>}/>
-
+        <Route path='*' element={<Navigate to='/' />} />
       </Routes>
 
     </BrowserRouter>
@@ -27,3 +35,4 @@ function App() {
 }
 
 export default App
+

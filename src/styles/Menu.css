@@ -1,0 +1,26 @@
+.menu .active {
+    border-right: 2px solid white;
+}
+
+
+.menu .navLink:hover {
+    border-right: 2px solid hsl(var(--colorWhite)/50%);
+}
+
+@media screen and (min-width: 640px) {
+
+    .menu .active {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .menu .navLink {
+        padding: 20px 0px;
+    }
+
+    .menu .navLink:hover {
+        border: none;
+        border-bottom: 2px solid hsl(var(--colorWhite)/50%);
+    }
+
+}
