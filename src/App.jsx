@@ -7,6 +7,7 @@ import { Crew } from './components/Crew';
 import { Technology } from './components/Technology ';
 import { DestinationPlaces } from './components/DestinationPlaces';
 import { CrewMembers } from './components/CrewMembers';
+import { SpaceshipComponents } from './components/SpaceshipComponents';
 import {data} from  './data';
 
 
@@ -26,7 +27,10 @@ function App() {
           <Route path='*' element={<Navigate to='Douglas-Hurley' />} />
             {data.crew.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<CrewMembers d={d} />} />)}
         </Route>
-        <Route path='/TECHNOLOGY' element={<Technology />}  />
+        <Route path='/TECHNOLOGY/*' element={<Technology />}  >
+          <Route path='*' element={<Navigate to='Launch-vehicle' />} />
+              {data.technology.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<SpaceshipComponents d={d} />} />)}
+        </Route>
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>
 

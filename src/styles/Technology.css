@@ -5,10 +5,39 @@
     background-image: url('../assets/technology/background-technology-mobile.jpg');
 }
 
+.technology .navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid hsl(var(--colorWhite)/50%);
+}
+
+
+.technology .active {
+    border-color: hsl(var(--colorWhite));
+    background-color: hsl(var(--colorWhite));
+    color: hsl(var(--colorDark));
+}
+
+.technology .navLink:hover {
+    border-color: hsl(var(--colorWhite));
+}
+
 
 @media screen and (min-width: 640px) {
     .technology{
         background-image: url('../assets/technology/background-technology-desktop.jpg');
+    }
+
+    .technology .navLink {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 
 }
