@@ -8,8 +8,8 @@
 
 .exploreButtonContainer:hover {
 
-    width: 240px;
-    height: 240px;
+    width: 208px;
+    height: 208px;
     background-color: hsl(var(--colorWhite)/15%);
     transition-duration: 1s;
 
@@ -26,8 +26,8 @@
 
     .exploreButtonContainer:hover {
 
-        width: 288px;
-        height: 288px;
+        width: 256px;
+        height: 256px;
     
     }
 
