@@ -2,9 +2,9 @@ import moon from './assets/destination/image-moon.png';
 import mars from './assets/destination/image-mars.png';
 import europa from './assets/destination/image-europa.png';
 import titan from './assets/destination/image-titan.png';
-import douglasHurley from './assets/crew/image-douglas-hurley.png';
-import markShuttleworth from './assets/crew/image-mark-shuttleworth.png';
-import victorGlover from './assets/crew/image-victor-glover.png';
+import josephCooper from './assets/crew/joseph-cooper.png';
+import ameliaBrand from './assets/crew/amelia-brand.png';
+import doyleBowman from './assets/crew/doyle-bowman.png';
 import anoushehAnsari from './assets/crew/image-anousheh-ansari.png';
 import launchVehiclePortrait from './assets/technology/image-launch-vehicle-portrait.jpg';
 import launchVehicleLandscape from './assets/technology/image-launch-vehicle-landscape.jpg';
@@ -56,28 +56,28 @@ export const data = {
   ],
   "crew": [
     {
-      "name": "Douglas Hurley",
+      "name": "Joseph Cooper",
       "images": {
-        "png": douglasHurley
+        "png": josephCooper
       },
-      "role": "Commander",
-      "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
+      "role": "Commander / Pilot",
+      "bio": "Joseph A. Cooper, a trained NASA pilot with an engineering background, leads the interstellar expedition as its pilot. An experienced and courageous astronaut, he was selected for his flight expertise. Driven by his passion for science and his dedication as a father, he seeks a new home for humanity."
     },
     {
-      "name": "Mark Shuttleworth",
+      "name": "Amelia Brand",
       "images": {
-        "png": markShuttleworth
+        "png": ameliaBrand
       },
-      "role": "Mission Specialist",
-      "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
+      "role": "Chief Scientist / Biologist",
+      "bio": "Dr. Amelia Brand is the chief scientist and biologist of the expedition, entrusted with the mission to find a new home for humanity. Her expertise and dedication are crucial in the endeavor to relocate the human race. Her unwavering passion for exploration and unwavering commitment to humanity are truly inspiring."
     },
     {
-      "name": "Victor Glover",
+      "name": "Doyle Bowman",
       "images": {
-        "png": victorGlover
+        "png": doyleBowman
       },
-      "role": "Pilot",
-      "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
+      "role": "Geographer",
+      "bio": "Doyle Bowman is a geographer and astronaut, he is a valuable member of the Lazarus space mission. His expertise in cartography and dedication to planet exploration make him a crucial element of the team. Outside of his scientific work, Doyle enjoys activities such as surfing and spending time at the beach. His passion for science drove him to join this mission in search of a new home for humanity."
     },
     {
       "name": "Anousheh Ansari",

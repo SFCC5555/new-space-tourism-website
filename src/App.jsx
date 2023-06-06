@@ -24,7 +24,7 @@ function App() {
           {data.destinations.map(d=><Route key={d.name} path={`${d.name.toUpperCase()}`} element={<DestinationPlaces d={d} />} />)}
         </Route>
         <Route path='/CREW/*' element={<Crew />}>
-          <Route path='*' element={<Navigate to='Douglas-Hurley' />} />
+          <Route path='*' element={<Navigate to='Joseph-Cooper' />} />
             {data.crew.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<CrewMembers d={d} />} />)}
         </Route>
         <Route path='/TECHNOLOGY/*' element={<Technology />}  >
