@@ -17,7 +17,7 @@ const CrewMembers = ({d}) => {
             </section>
             <h3 className='text-sm colorLight font1 sm:text-2xl' >{d.role.toUpperCase()}</h3>
             <h1 className='text-2xl font1 sm:text-4xl' >{d.name.toUpperCase()}</h1>
-            <p className='font3 sm:text-left sm:mb-16' >{d.bio}</p>
+            <p className='font3 sm:text-left sm:mb-16 colorLight' >{d.bio}</p>
 
           </section>
 

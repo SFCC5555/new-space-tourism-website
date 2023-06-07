@@ -15,7 +15,7 @@ const DestinationPlaces = ({d}) => {
               {data.destinations.map(i=><NavLink className={'navLink font2'} key={i.name} to={'/DESTINATION/'+i.name.toUpperCase()} >{i.name.toUpperCase()}</NavLink>)}
             </section>
             <h1 className="text-5xl font1 sm:text-7xl" >{d.name.toUpperCase()}</h1>
-            <p className="font3 borderBottom1px pb-5 sm:text-left" >{d.description}</p>
+            <p className="font3 borderBottom1px pb-5 sm:text-left colorLight" >{d.description}</p>
             <div className="flex flex-col w-full items-center gap-5 font4 sm:flex-row sm:justify-between" >
               <div className="flex flex-col items-center sm:items-start gap-5" >
                 <h3 className="text-sm sm:text-xs md:text-sm" >AVG. DISTANCE</h3>

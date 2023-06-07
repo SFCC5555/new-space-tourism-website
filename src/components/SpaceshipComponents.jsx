@@ -19,7 +19,7 @@ const SpaceshipComponents = ({d}) => {
             <div className='flex flex-col items-center gap-5 sm:items-start sm:text-left' >
                 <h3 className='text-sm colorLight font1' >THE TERMINOLOGY...</h3>
                 <h1 className='text-2xl font1 sm:text-5xl' >{d.name}</h1>
-                <p className='font3 px-5 sm:px-0 sm:text-left' >{d.description}</p>
+                <p className='font3 px-5 sm:px-0 sm:text-left colorLight' >{d.description}</p>
             </div>
 
 

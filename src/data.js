@@ -1,55 +1,46 @@
-import moon from './assets/destination/image-moon.png';
-import mars from './assets/destination/image-mars.png';
-import europa from './assets/destination/image-europa.png';
-import titan from './assets/destination/image-titan.png';
+import miller from './assets/destination/image-miller.png';
+import mann from './assets/destination/image-mann.png';
+import edmund from './assets/destination/image-edmund.png';
 import josephCooper from './assets/crew/joseph-cooper.png';
 import ameliaBrand from './assets/crew/amelia-brand.png';
 import doyleBowman from './assets/crew/doyle-bowman.png';
 import hughMann from './assets/crew/hugh-mann.png';
-import launchVehiclePortrait from './assets/technology/image-launch-vehicle-portrait.jpg';
-import launchVehicleLandscape from './assets/technology/image-launch-vehicle-landscape.jpg';
-import spaceportPortrait from './assets/technology/image-spaceport-portrait.jpg';
-import spaceportLandscape from './assets/technology/image-spaceport-landscape.jpg';
-import spaceCapsulePortrait from './assets/technology/image-space-capsule-portrait.jpg';
-import spaceCapsuleLandscape from './assets/technology/image-space-capsule-landscape.jpg';
+import romillyPoole from './assets/crew/romilly-poole.png';
+import endurancePortrait from './assets/technology/image-endurance-portrait.jpg';
+import enduranceLandscape from './assets/technology/image-endurance-landscape.jpg';
+import rangerPortrait from './assets/technology/image-ranger-portrait.jpg';
+import rangerLandscape from './assets/technology/image-ranger-landscape.jpg';
+import tarsAndCasePortrait from './assets/technology/image-tarsAndCase-portrait.jpg';
+import tarsAndCaseLandscape from './assets/technology/image-tarsAndCase-landscape.jpg';
 
 
 
 export const data = {
   "destinations": [
     {
-      "name": "Moon",
+      "name": "Miller",
       "images": {
-        "png": moon
+        "png": miller
       },
-      "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-      "distance": "384,400 km",
-      "travel": "3 days"
+      "description": "Miller's Planet, named in honor of astronaut and scientist Dr. Miller, is a world with extreme gravity near the black hole Gargantua. Time passes faster on its surface. It features beautiful seas, perfect for ocean lovers and exploration.",
+      "distance": "1.047 bil. km",
+      "travel": "5 years"
     },
     {
-      "name": "Mars",
+      "name": "Mann",
       "images": {
-        "png": mars
+        "png": mann
       },
-      "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
-      "distance": "225 mil. km",
-      "travel": "9 months"
+      "description": "Named after astronaut Dr. Mann, Mann's Planet is a promising world in the star system. It boasts grand mountain ranges and snowy landscapes, with a climate resembling Earth's Nordic countries. Dr. Mann's reports indicate a chilly half-year, followed by a delightful and pleasant climate.",
+      "distance": "837 mil. km",
+      "travel": "4 years"
     },
     {
-      "name": "Europa",
+      "name": "Edmund",
       "images": {
-        "png": europa
+        "png": edmund
       },
-      "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
-      "distance": "628 mil. km",
-      "travel": "3 years"
-    },
-    {
-      "name": "Titan",
-      "images": {
-        "png": titan
-      },
-      "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+      "description": "Named in honor of astronaut Dr. Edmunds, this planet is regarded by Dr. Brand as the optimal choice for a new home. Despite being the farthest one, it is portrayed as a potentially habitable world, offering humanity's best chance for survival.",
       "distance": "1.6 bil. km",
       "travel": "7 years"
     }
@@ -80,38 +71,47 @@ export const data = {
       "bio": "Doyle Bowman is a geographer and astronaut, his expertise in cartography and dedication to planet exploration make him a crucial element of the team. Outside of his scientific work, Doyle enjoys activities such as surfing and spending time at the beach. His passion for science drove him to join this mission in search of a new home for humanity."
     },
     {
+      "name": "Romilly Poole",
+      "images": {
+        "png": romillyPoole
+      },
+      "role": "Flight Engineer",
+      "bio": "Romilly Poole is an astronaut, physicist, and flight engineer of the Lazarus mission. He will be in charge of ensuring that everything goes well aboard the Endurance spacecraft. He enjoys and appreciates spending time alone, finding serenity in the solitude of space."
+    },
+    {
       "name": "Hugh Mann",
       "images": {
         "png": hughMann
       },
       "role": "Astrophysicist",
-      "bio": "Dr. Hugh Mann is an outstanding astrophysicist of the Lazarus space mission who has discovered promising prospects of habitable planets. Known for his intelligence and scientific achievements, he has become a point of reference for the team. As the first explorer to arrive, Dr. Mann will await us with a warm welcome on the chosen planet."
+      "bio": "Dr. Hugh Mann is an outstanding astrophysicist who has discovered promising prospects of habitable planets. Known for being the first man to reach Mars, as well as his intelligence and scientific achievements, he has become a point of reference for the team. As the first explorer to arrive, Dr. Mann will await us with a warm welcome on the chosen planet."
     }
+
   ],
   "technology": [
     {
-      "name": "Launch vehicle",
+      "name": "Endurance",
       "images": {
-        "portrait": launchVehiclePortrait,
-        "landscape": launchVehicleLandscape
+        "portrait": endurancePortrait,
+        "landscape": enduranceLandscape
       },
-      "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+      "description": "The Endurance is an exploration and colonization spacecraft designed for interstellar travel. The Endurance is used by astronauts to journey through the wormhole and explore planets in search of a new home for humanity."
     },
     {
-      "name": "Spaceport",
+      "name": "Ranger",
       "images": {
-        "portrait": spaceportPortrait,
-        "landscape": spaceportLandscape
+        "portrait": rangerPortrait,
+        "landscape": rangerLandscape
       },
-      "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+      "description": "The Ranger is a multipurpose spacecraft used both on Earth and other planets. Rangers are smaller ships deployed from the mother ship, the Endurance, to perform specific tasks such as reconnaissance, data collection, and transportation of people and resources."
     },
     {
-      "name": "Space capsule",
+      "name": "TARS & CASE",
       "images": {
-        "portrait": spaceCapsulePortrait,
-        "landscape": spaceCapsuleLandscape
+        "portrait": tarsAndCasePortrait,
+        "landscape": tarsAndCaseLandscape
       },
-      "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
+      "description": "TARS and CASE are two of the four former tactical robots of the U.S. Marine Corps. TARS stands out for its high mobility, while CASE exhibits maneuvering abilities. Both feature a vocal interface and unique personalities, providing companionship and technical support to the crew and passengers."
     }
   ]
 }

@@ -20,7 +20,7 @@ function App() {
 
         <Route path='/' element={<Home />}  />
         <Route path='/DESTINATION/*' element={<Destination />}>
-          <Route path='*' element={<Navigate to='MOON' />} />
+          <Route path='*' element={<Navigate to='MILLER' />} />
           {data.destinations.map(d=><Route key={d.name} path={`${d.name.toUpperCase()}`} element={<DestinationPlaces d={d} />} />)}
         </Route>
         <Route path='/CREW/*' element={<Crew />}>
@@ -28,7 +28,7 @@ function App() {
             {data.crew.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<CrewMembers d={d} />} />)}
         </Route>
         <Route path='/TECHNOLOGY/*' element={<Technology />}  >
-          <Route path='*' element={<Navigate to='Launch-vehicle' />} />
+          <Route path='*' element={<Navigate to='Endurance' />} />
               {data.technology.map(d=><Route key={d.name} path={`${d.name.replace(' ','-')}`} element={<SpaceshipComponents d={d} />} />)}
         </Route>
         <Route path='*' element={<Navigate to='/' />} />
