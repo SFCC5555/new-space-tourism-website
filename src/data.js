@@ -5,7 +5,7 @@ import titan from './assets/destination/image-titan.png';
 import josephCooper from './assets/crew/joseph-cooper.png';
 import ameliaBrand from './assets/crew/amelia-brand.png';
 import doyleBowman from './assets/crew/doyle-bowman.png';
-import anoushehAnsari from './assets/crew/image-anousheh-ansari.png';
+import hughMann from './assets/crew/hugh-mann.png';
 import launchVehiclePortrait from './assets/technology/image-launch-vehicle-portrait.jpg';
 import launchVehicleLandscape from './assets/technology/image-launch-vehicle-landscape.jpg';
 import spaceportPortrait from './assets/technology/image-spaceport-portrait.jpg';
@@ -77,15 +77,15 @@ export const data = {
         "png": doyleBowman
       },
       "role": "Geographer",
-      "bio": "Doyle Bowman is a geographer and astronaut, he is a valuable member of the Lazarus space mission. His expertise in cartography and dedication to planet exploration make him a crucial element of the team. Outside of his scientific work, Doyle enjoys activities such as surfing and spending time at the beach. His passion for science drove him to join this mission in search of a new home for humanity."
+      "bio": "Doyle Bowman is a geographer and astronaut, his expertise in cartography and dedication to planet exploration make him a crucial element of the team. Outside of his scientific work, Doyle enjoys activities such as surfing and spending time at the beach. His passion for science drove him to join this mission in search of a new home for humanity."
     },
     {
-      "name": "Anousheh Ansari",
+      "name": "Hugh Mann",
       "images": {
-        "png": anoushehAnsari
+        "png": hughMann
       },
-      "role": "Flight Engineer",
-      "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+      "role": "Astrophysicist",
+      "bio": "Dr. Hugh Mann is an outstanding astrophysicist of the Lazarus space mission who has discovered promising prospects of habitable planets. Known for his intelligence and scientific achievements, he has become a point of reference for the team. As the first explorer to arrive, Dr. Mann will await us with a warm welcome on the chosen planet."
     }
   ],
   "technology": [
