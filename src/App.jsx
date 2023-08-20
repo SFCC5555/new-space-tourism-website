@@ -33,7 +33,6 @@ function App() {
         </Route>
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>
-
     </BrowserRouter>
   )
 }
